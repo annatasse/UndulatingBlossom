@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Felix
+  - Anna
+  - OneWayPlatform
+  - SwitchingPlatformOn
+  - SwitchingPlatformOff
+  - FloatingPlatform
+  - NonClimbable
+  - FloatingPlatformStatic
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Solid
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background-Unlit
+    uniqueID: 3900177867
+    locked: 0
+  - name: Background
+    uniqueID: 3823039199
+    locked: 0
+  - name: Platforms
+    uniqueID: 1688935011
+    locked: 0
+  - name: Items
+    uniqueID: 3729955215
+    locked: 0
+  - name: Player
+    uniqueID: 3007390539
+    locked: 0
+  - name: Water
+    uniqueID: 1838733689
+    locked: 0
+  - name: Foreground
+    uniqueID: 21462019
+    locked: 0
+  m_RenderingLayers:
+  - Default

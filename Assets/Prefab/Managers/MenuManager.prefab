@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9203855399348233410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4519615181371072714}
+  - component: {fileID: 1569620990937341942}
+  m_Layer: 0
+  m_Name: MenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4519615181371072714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9203855399348233410}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1569620990937341942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9203855399348233410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f851b18b7cc3d4e79ec2b1de7c41fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasPrefab: {fileID: 8438184333435958005, guid: ff16eddd448e7588ea0c5fe49189e45f, type: 3}
+  eventSystemPrefab: {fileID: 307167035591985347, guid: 469ae7f5f0d59724f93e8b0fe30b4d6e, type: 3}
+  mainMenuPrefab: {fileID: 886658329797751419, guid: 8832a80f96410761a80ed22fa58f741b, type: 3}
+  settingsMenuPrefab: {fileID: 4328172465318805477, guid: 362ae0376a21bfba9a57160b4c68c856, type: 3}
+  pauseMenuPrefab: {fileID: 7611874237471420676, guid: 7ba0276963cbcc5929a3ebf48c4b18e9, type: 3}
+  characterSelectionMenuPrefab: {fileID: 1952222290973342800, guid: bf31563f62577f6dc9d9be7a64941751, type: 3}
+  controlsMenuPrefab: {fileID: 4328172465318805477, guid: 61da2ba58c8a38cd2800e92ead0b02d5, type: 3}
+  creditsMenuPrefab: {fileID: 2206550359892323590, guid: 4ae93634cd5ef39428c987aa8f367b7f, type: 3}
+  audioMenuPrefab: {fileID: 4263206832384149107, guid: ae6eff88f44f3ca3992b4b7579825449, type: 3}
+  assistModeMenuPrefab: {fileID: 5329553714770963282, guid: 1da9d59de8b0f3b21ae2013cc51ecde9, type: 3}
+  menuMusic: {fileID: 8300000, guid: 443aa43c6bab778f99b1178ea20d0206, type: 3}
+  menuPauseSound: {fileID: 8300000, guid: ec4f1160b13d241d7a297f58dff8af61, type: 3}
+  menuResumeSound: {fileID: 8300000, guid: 86eb4cf908c79d8569db0816c7357c3a, type: 3}
+  menuSelectSound: {fileID: 8300000, guid: 8e510d4d9ab97d24e9e390364b98af56, type: 3}
+  menuConfirmSound: {fileID: 8300000, guid: cc6ec3ef24bfd17398dc0be3cce696f7, type: 3}
+  menuCancelSound: {fileID: 8300000, guid: b6dea766d0dc56ebd8587060f049c223, type: 3}
+  menuErrorSound: {fileID: 8300000, guid: 85cc6049e3f6c01f7be700df5ab74353, type: 3}

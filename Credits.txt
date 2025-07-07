@@ -1,0 +1,131 @@
+Sprites
+- Tilemap
+	Pixel Woods
+	Cubic Tree
+	https://cubic-tree.itch.io/pixel-woods-free-platformer-tileset
+- Shrines
+	Alian Tree & Tiki
+	KnoblePersona
+	https://opengameart.org/content/alian-tree-tiki-64x64
+- Characters
+	World of Solaria
+	Jamie Brownhill
+	https://jamiebrownhill.itch.io/solaria-sprites
+- Death Animation
+	Pixel Holy Spell Effect
+	BDragon1727
+	https://bdragon1727.itch.io/pixel-holy-spell-effect-32x32-pack-3
+- Floating Platform
+	Inspired by
+	Detailed Pixel Cloud Set - Pink Sticker
+	TheWitchsFlower
+	https://www.redbubble.com/i/sticker/Detailed-Pixel-Cloud-Set-Pink-by-TheWitchsFlower/76000069.EJUG5
+- Gems
+	Kenney 1-Bit Platformer Pack
+	Kenney
+	https://www.kenney.nl/assets/1-bit-platformer-pack
+- Mushroom
+	16x16 Fantasy Mushroom Pack
+	ssugmi
+	https://ssugmi.itch.io/fantasy-mushroom-pack
+- Mushroom Trampoline
+	Inspired by
+	Takoyaki Tech
+	https://www.shutterstock.com/g/PureDelirium
+- Buttons
+	Xelu's free Controllers & Keyboard prompts
+	Nicolae (Xelu) Berbece
+	https://thoseawesomeguys.com/prompts/
+- Control Schemes
+	PadCrafter
+	Edd Coates
+	https://www.padcrafter.com/
+- Cracked Log
+	Felix/ChatGPT
+- Branches, Leaves, Vines, Grave, GemGate, Arrow
+	Anna
+- Falling Leaves Texture
+	Collaborapix Studio
+	https://www.shutterstock.com/image-vector/pixel-art-illustration-sakura-flower-pixelated-2363084599
+
+Backgrounds
+- Cave
+	Cave Tileset
+	Silvdragoon_D
+	https://silvdragoon-d.itch.io/cave-tileset
+- Clouds
+	Free Sky Backgrounds
+	Craftpix.net
+	https://craftpix.net/freebies/free-sky-with-clouds-background-pixel-art-set/
+- Clouds with grass
+	Free Summer Pixel Art Backgrounds
+	Craftpix.net
+	https://craftpix.net/freebies/free-summer-pixel-art-backgrounds/
+- Grassy Mountains
+	Grassy Mountains
+	vnitti
+	https://vnitti.itch.io/grassy-mountains-parallax-background
+- Cherry Trees
+	pngtree.com
+	https://pngtree.com/freepng/cherry-blossom-tree-spring-plant-flower-petals_6748513.html
+	https://pngtree.com/freepng/cherry-tree_5641879.html
+
+
+Music
+- Menu
+	Fuse - Retro Fusion Music Loops
+	Ben Arntz, @beepartz
+	https://beepartz.itch.io/fuse-retro-fusion-music-loops
+- Level
+	Cozy Tunes
+	Pizza Doggy's
+	https://pizzadoggy.itch.io/cozy-tunes
+
+Sound Effects
+- Gems
+	8-bit / 16-bit Sound Effects (x25) Pack
+	JDWasabi
+	https://jdwasabi.itch.io/8-bit-16-bit-sound-effects-pack
+- Gem Gate Unlock
+	Sunovia from Pixabay
+	https://pixabay.com/sound-effects/unlock-stinger-289722/
+- Trampoline
+	https://elevenlabs.io/
+	https://elevenlabs.io/de/sound-effects/boing
+- Dash
+	Dheeraj M4JOR from Pixabay
+	https://pixabay.com/users/36410348/?tab=sound-effects&order=latest&pagi=1
+- Menu Sounds
+	Ambient Puzzle Music/SFX Pack
+	Chris Logsdon
+	https://chrislsound.itch.io/ambient-puzzle
+
+	SoupTonic's sound SFX Pack 1 - UI menu sounds
+	SoupTonic
+	https://souptonic.itch.io/souptonic-sfx-pack-1-ui-sounds
+- Mushroom
+	freesound_community from Pixabay
+	https://pixabay.com/sound-effects/item-pick-up-38258/
+- Golden Mushroom
+	Lesiakower from Pixabay
+	https://pixabay.com/sound-effects/coin-collect-retro-8-bit-sound-effect-145251/
+- Spawning Platform
+	freesound_community from Pixabay
+	https://pixabay.com/sound-effects/poof-of-smoke-87381/
+- Water Splash
+	freesound_community from Pixabay
+	https://pixabay.com/sound-effects/water-drip-45622/
+- Shrines
+1) 	Hyouka (Anime)
+	Kyoto Animation
+2)	Julius H. from Pixabay
+	https://pixabay.com/sound-effects/laughing-ghost-horror-sounds-8293/
+	https://pixabay.com/sound-effects/creepy-echo-scary-and-spooky-sounds-9685/
+3)	freesound_community from Pixabay
+	https://pixabay.com/sound-effects/magic-wand-6214/
+- Death
+	freesound_community from Pixabay
+	https://pixabay.com/sound-effects/portal-phase-jump-6355/
+- Swimming Leaves
+	freesound_community from Pixabay
+	https://pixabay.com/sound-effects/paper-landing-42033/

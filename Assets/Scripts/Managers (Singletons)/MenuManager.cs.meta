@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 4f851b18b7cc3d4e79ec2b1de7c41fd2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - canvasPrefab: {instanceID: 0}
+  - eventSystemPrefab: {instanceID: 0}
+  - mainMenuPrefab: {instanceID: 0}
+  - settingsMenuPrefab: {instanceID: 0}
+  - pauseMenuPrefab: {instanceID: 0}
+  - characterSelectionMenuPrefab: {instanceID: 0}
+  - menuMusic: {fileID: 3126936830753671212, guid: f3a1307243e5428b9b5ee7ac56983091, type: 3}
+  - menuOpenSound: {instanceID: 0}
+  - menuCloseSound: {instanceID: 0}
+  - menuSelectSound: {fileID: 4326465440426932818, guid: 6d62d09a8934c20b8a05d0b3883909c1, type: 3}
+  - menuCancelSound: {fileID: 6236009684604423556, guid: 3dccb4466a9b04ee8a24208edca08c30, type: 3}
+  - menuErrorSound: {fileID: 1956497049671120434, guid: f304f9e30373a26b7a3c547630d03d43, type: 3}
+  - menuHoverSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
