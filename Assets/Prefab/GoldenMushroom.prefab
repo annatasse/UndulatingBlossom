@@ -4973,10 +4973,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0fbad524015debb9a96852f720e54b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowFelix: 1
+  allowAnna: 1
   amp: 0.04
   freq: 4
   followSpeed: 2.5
-  minFollowDistance: 1
+  minFollowDistance: 0.5
   maxFollowDistance: 3
   followOffset: {x: 0, y: 1, z: 0}
   pickupSound: {fileID: 8300000, guid: ccce1d5e519f687b1802aa7bb15f53fc, type: 3}
