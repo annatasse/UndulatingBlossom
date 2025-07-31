@@ -37,6 +37,7 @@ public class MenuManager : MonoBehaviour {
     private Dictionary<Menu, GameObject> menus;
     private Stack<Menu> previousMenus = new();
     public Canvas canvas {get; private set;}
+    public float gameSpeed = 1;
 
     public void Awake() {
         // Debug.Log("Menu Manager: Awake");
@@ -146,7 +147,7 @@ public class MenuManager : MonoBehaviour {
     }
 
     private void UnpauseGame() {
-        Time.timeScale = 1;
+        Time.timeScale = gameSpeed;
         AudioManager.instance.ResumeBackgroundMusic();
     }
 

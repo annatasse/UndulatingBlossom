@@ -11,26 +11,30 @@ public class AssistModeMenu : MonoBehaviour {
     public TextMeshProUGUI invincibiliyFelix;
     public TextMeshProUGUI infiniteDashAnna;
     public TextMeshProUGUI invincibiliyAnna;
+    public TextMeshProUGUI gameSpeedText;
     public Color normalColor;
     public Color selectedColor;
     //
 
-    private bool _infiniteDashFelix;
-    private bool _invincibilityFelix;
-    private bool _infiniteDashAnna;
-    private bool _invincibilityAnna;
+    private bool isInfiniteDashFelix;
+    private bool isInvincibilityFelix;
+    private bool isInfiniteDashAnna;
+    private bool isInvincibilityAnna;
+    private float _gameSpeed;
 
     public void Start() {
         selectedButton.Select();
-        _infiniteDashFelix = PlayerManager.instance.CanInfiniteDash(CharacterName.Felix);
-        _invincibilityFelix = PlayerManager.instance.IsInvincible(CharacterName.Felix);
-        _infiniteDashAnna = PlayerManager.instance.CanInfiniteDash(CharacterName.Anna);
-        _invincibilityAnna = PlayerManager.instance.IsInvincible(CharacterName.Anna);
+        isInfiniteDashFelix = PlayerManager.instance.CanInfiniteDash(CharacterName.Felix);
+        isInvincibilityFelix = PlayerManager.instance.IsInvincible(CharacterName.Felix);
+        isInfiniteDashAnna = PlayerManager.instance.CanInfiniteDash(CharacterName.Anna);
+        isInvincibilityAnna = PlayerManager.instance.IsInvincible(CharacterName.Anna);
 
-        infiniteDashFelix.text = _infiniteDashFelix ? "On" : "Off";
-        invincibiliyFelix.text = _invincibilityFelix ? "On" : "Off";
-        infiniteDashAnna.text = _infiniteDashAnna ? "On" : "Off";
-        invincibiliyAnna.text = _invincibilityAnna ? "On" : "Off";
+        infiniteDashFelix.text = isInfiniteDashFelix ? "On" : "Off";
+        invincibiliyFelix.text = isInvincibilityFelix ? "On" : "Off";
+        infiniteDashAnna.text = isInfiniteDashAnna ? "On" : "Off";
+        invincibiliyAnna.text = isInvincibilityAnna ? "On" : "Off";
+
+        _gameSpeed = MenuManager.instance.gameSpeed;
     }
 
     public void OnEnable() {
@@ -47,27 +51,36 @@ public class AssistModeMenu : MonoBehaviour {
     }
 
     public void ToggleInvincibilityFelix() {
-        _invincibilityFelix = !_invincibilityFelix;
-        invincibiliyFelix.text = _invincibilityFelix ? "On" : "Off";
-        PlayerManager.instance.SetInvincible(CharacterName.Felix, _invincibilityFelix);
+        isInvincibilityFelix = !isInvincibilityFelix;
+        invincibiliyFelix.text = isInvincibilityFelix ? "On" : "Off";
+        PlayerManager.instance.SetInvincible(CharacterName.Felix, isInvincibilityFelix);
     }
 
     public void ToggleInvincibilityAnna() {
-        _invincibilityAnna = !_invincibilityAnna;
-        invincibiliyAnna.text = _invincibilityAnna ? "On" : "Off";
-        PlayerManager.instance.SetInvincible(CharacterName.Anna, _invincibilityAnna);
+        isInvincibilityAnna = !isInvincibilityAnna;
+        invincibiliyAnna.text = isInvincibilityAnna ? "On" : "Off";
+        PlayerManager.instance.SetInvincible(CharacterName.Anna, isInvincibilityAnna);
     }
 
         public void ToggleInfiniteDashFelix() {
-        _infiniteDashFelix = !_infiniteDashFelix;
-        infiniteDashFelix.text = _infiniteDashFelix ? "On" : "Off";
-        PlayerManager.instance.SetInfiniteDash(CharacterName.Felix, _infiniteDashFelix);
+        isInfiniteDashFelix = !isInfiniteDashFelix;
+        infiniteDashFelix.text = isInfiniteDashFelix ? "On" : "Off";
+        PlayerManager.instance.SetInfiniteDash(CharacterName.Felix, isInfiniteDashFelix);
     }
 
     public void ToggleInfiniteDashAnna() {
-        _infiniteDashAnna = !_infiniteDashAnna;
-        infiniteDashAnna.text = _infiniteDashAnna ? "On" : "Off";
-        PlayerManager.instance.SetInfiniteDash(CharacterName.Anna, _infiniteDashAnna);
+        isInfiniteDashAnna = !isInfiniteDashAnna;
+        infiniteDashAnna.text = isInfiniteDashAnna ? "On" : "Off";
+        PlayerManager.instance.SetInfiniteDash(CharacterName.Anna, isInfiniteDashAnna);
+    }
+
+    public void UpdateGameSpeed() {
+        _gameSpeed += 0.1f;
+        if (_gameSpeed > 1.51f) { // 1.50 gets skipped, maybe due to float precision
+            _gameSpeed = 0.5f;
+        }
+        MenuManager.instance.gameSpeed = _gameSpeed;
+        gameSpeedText.text = $"Game Speed: {_gameSpeed * 100:F0}%";
     }
 
     public void Back() {
